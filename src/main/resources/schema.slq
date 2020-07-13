@@ -1,0 +1,45 @@
+CREATE TABLE `shipment` (
+  `reference` varchar(191) NOT NULL,
+  `parcelId` int(6) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `shipment`
+--
+ALTER TABLE `shipment`
+  ADD PRIMARY KEY (`reference`),
+COMMIT;
+
+
+
+CREATE TABLE `parcels` (
+  `id` int(6) NOT NULL,
+  `weight` int(6) NOT NULL,
+  `width` int(6) NOT NULL,
+  `height` int(6) NOT NULL,
+  `length` int(6) NOT NULL,
+  `shipment` varchar(191) DEFAULT NULL,
+   CONSTRAINT `fk_shipment` FOREIGN KEY (`shipment`) REFERENCES `shipment` (`reference`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `parcels`
+-
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `parcels`
+--
+ALTER TABLE `parcels`
+  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT;
+COMMIT;

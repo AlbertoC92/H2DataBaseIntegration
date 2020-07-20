@@ -1,8 +1,8 @@
-package com.core.codeChallengeAlbertoC92.test.mappers;
+package com.core.H2DataBaseIntegration.test.mappers;
 
-import com.core.codeChallengeAlbertoC92.test.data.DbParcels;
-import com.core.codeChallengeAlbertoC92.test.data.DbShipment;
-import com.core.codeChallengeAlbertoC92.test.model.Parcels;
+import com.core.H2DataBaseIntegration.test.data.DbParcels;
+import com.core.H2DataBaseIntegration.test.data.DbShipment;
+import com.core.H2DataBaseIntegration.test.model.Parcels;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

@@ -1,4 +1,4 @@
-package com.core.codeChallengeAlbertoC92.test.data;
+package com.core.H2DataBaseIntegration.test.data;
 
 import com.sun.istack.NotNull;
 import lombok.*;
@@ -35,6 +35,6 @@ public class DbParcels implements Serializable {
     @NotNull
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
-    private DbShipment shipment;
+    private com.core.H2DataBaseIntegration.test.data.DbShipment shipment;
 
 }

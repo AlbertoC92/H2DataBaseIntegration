@@ -1,8 +1,8 @@
-package com.core.codeChallengeAlbertoC92.test.mappers;
+package com.core.H2DataBaseIntegration.test.mappers;
 
-import com.core.codeChallengeAlbertoC92.test.data.DbShipment;
-import com.core.codeChallengeAlbertoC92.test.model.Parcels;
-import com.core.codeChallengeAlbertoC92.test.model.Shipment;
+import com.core.H2DataBaseIntegration.test.data.DbShipment;
+import com.core.H2DataBaseIntegration.test.model.Parcels;
+import com.core.H2DataBaseIntegration.test.model.Shipment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,10 @@
-package com.core.codeChallengeAlbertoC92.test.controller;
+package com.core.H2DataBaseIntegration.test.controller;
 
-import com.core.codeChallengeAlbertoC92.test.data.DbShipment;
-import com.core.codeChallengeAlbertoC92.test.model.Shipment;
-import com.core.codeChallengeAlbertoC92.test.model.Tracking;
-import com.core.codeChallengeAlbertoC92.test.model.TrackingResult;
-import com.core.codeChallengeAlbertoC92.test.service.ApplicationService;
+import com.core.H2DataBaseIntegration.test.data.DbShipment;
+import com.core.H2DataBaseIntegration.test.model.Shipment;
+import com.core.H2DataBaseIntegration.test.model.Tracking;
+import com.core.H2DataBaseIntegration.test.model.TrackingResult;
+import com.core.H2DataBaseIntegration.test.service.ApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.core.codeChallengeAlbertoC92.test;
+package com.core.H2DataBaseIntegration.test;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

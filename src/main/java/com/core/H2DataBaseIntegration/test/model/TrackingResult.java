@@ -1,4 +1,4 @@
-package com.core.codeChallengeAlbertoC92.test.model;
+package com.core.H2DataBaseIntegration.test.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

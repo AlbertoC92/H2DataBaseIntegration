@@ -1,14 +1,14 @@
-package com.core.codeChallengeAlbertoC92.test.services;
+package com.core.H2DataBaseIntegration.test.services;
 
-import com.core.codeChallengeAlbertoC92.test.data.DbParcels;
-import com.core.codeChallengeAlbertoC92.test.data.DbShipment;
-import com.core.codeChallengeAlbertoC92.test.mappers.ShipmentMapper;
-import com.core.codeChallengeAlbertoC92.test.model.Shipment;
-import com.core.codeChallengeAlbertoC92.test.model.Tracking;
-import com.core.codeChallengeAlbertoC92.test.model.TrackingResult;
-import com.core.codeChallengeAlbertoC92.test.repository.ParcelRepository;
-import com.core.codeChallengeAlbertoC92.test.repository.ShipmentRepository;
-import com.core.codeChallengeAlbertoC92.test.service.ApplicationService;
+import com.core.H2DataBaseIntegration.test.data.DbParcels;
+import com.core.H2DataBaseIntegration.test.data.DbShipment;
+import com.core.H2DataBaseIntegration.test.mappers.ShipmentMapper;
+import com.core.H2DataBaseIntegration.test.model.Shipment;
+import com.core.H2DataBaseIntegration.test.model.Tracking;
+import com.core.H2DataBaseIntegration.test.model.TrackingResult;
+import com.core.H2DataBaseIntegration.test.repository.ParcelRepository;
+import com.core.H2DataBaseIntegration.test.repository.ShipmentRepository;
+import com.core.H2DataBaseIntegration.test.service.ApplicationService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
